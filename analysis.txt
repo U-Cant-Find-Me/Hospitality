@@ -1,0 +1,4 @@
+Analyzing hospitality...                                        
+
+warning - The asset directory 'assets/animations/' doesn't exist - pubspec.yaml:160:7 - asset_directory_does_not_exist
+
