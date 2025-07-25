@@ -1,12 +1,8 @@
 enum IntroEnums {
-  app('app'),
-  work('work'),
-  commerce('commerce'),
-  ;
+  insurance('assets/intro/Insurance.json'),
+  billing('assets/intro/bill.json'),
+  inventory('assets/intro/Inventory.json');
 
-  final String value;
-
-  const IntroEnums(this.value);
-
-  String get toJson => 'assets/intro/$value.json';
+  const IntroEnums(this.toJson);
+  final String toJson;
 }

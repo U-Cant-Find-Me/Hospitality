@@ -1,0 +1,57 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Hospitality (debug mode)",
+            "request": "launch",
+            "type": "dart",
+            "preLaunchTask": "flutter: clean and get",
+            "program": "lib/main.dart",
+            "args": [
+                "--android-skip-build-dependency-validation",
+                "--verbose"
+            ]
+        },
+        {
+            "name": "Hospitality (normal mode)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--android-skip-build-dependency-validation",
+                "--verbose"
+            ]
+        },
+        {
+            "name": "Hospitality (debug mode - full setup)",
+            "request": "launch",
+            "type": "dart",
+            "preLaunchTask": "flutter: full setup and build",
+            "program": "lib/main.dart",
+            "args": [
+                "--android-skip-build-dependency-validation",
+                "--verbose"
+            ]
+        },
+        {
+            "name": "Hospitality",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Hospitality (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Hospitality (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

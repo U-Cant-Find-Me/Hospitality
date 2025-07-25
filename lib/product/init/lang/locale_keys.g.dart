@@ -1,12 +1,12 @@
 // DO NOT EDIT. This is code generated via package:easy_localization/generate.dart
 
 abstract class LocaleKeys {
-  static const introIntroTitleFirst = 'intro.introTitleFirst';
-  static const introIntroDescriptionFirst = 'intro.introDescriptionFirst';
-  static const introIntroTitleSecond = 'intro.introTitleSecond';
-  static const introIntroDescriptionSecond = 'intro.introDescriptionSecond';
-  static const introIntroTitleThird = 'intro.introTitleThird';
-  static const introIntroDescriptionThird = 'intro.introDescriptionThird';
+  static const introIntroTitleFourth = 'intro.introTitleFourth';
+  static const introIntroDescriptionFourth = 'intro.introDescriptionFourth';
+  static const introIntroTitleFifth = 'intro.introTitleFifth';
+  static const introIntroDescriptionFifth = 'intro.introDescriptionFifth';
+  static const introIntroTitleSixth = 'intro.introTitleSixth';
+  static const introIntroDescriptionSixth = 'intro.introDescriptionSixth';
   static const intro = 'intro';
   static const buttonSkip = 'button.skip';
   static const buttonDone = 'button.done';
